@@ -3,6 +3,8 @@
 Desarrollo de algoritmo en Java para la clase de Algoritmos en la Maestría de Ingeniería de Sistemas.
 Estudio del tiempo de corrida y complejidad.
 
+Se desarrollo un ejecutable encontrado en `exec` el cual permite primeramente seleccionar un archivo de entrada, posteriormente arroja como resultado un archivo de salida llamado `output.txt`.
+
 _ _ _
 
 ## Pseudocódigo
