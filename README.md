@@ -109,7 +109,7 @@ T(n) &= 4 + \sum_{i = 1}^{n}{3} + 4 + \sum_{i = 1}^{\log_{2}{n}}{\left[6 + \sum_
 Notamos que es una serie geometrica, entonces
 
 $$\begin{array}{cc}
-T(n) &= 8 + 3n + \log_{2}{n} \cdot \left(26 + 18n\right) + 4n\left(\frac{1 - \frac{1}{2^{\log_{2}{n} + 1}}}{1 - \frac{1}{2} - 1}\right) - 2n\log_{2}{n} \\
+T(n) &= 8 + 3n + \log_{2}{n} \cdot \left(26 + 18n\right) + 4n\left(\frac{1 - \frac{1}{2^{\log_{2}{n} + 1}}}{1 - \frac{1}{2}} - 1\right) - 2n\log_{2}{n} \\
   &= 8 + 3n + \log_{2}{n} \cdot \left(26 + 18n\right) + 4n\left(1 - \frac{1}{n}\right) - 2n\log_{2}{n} \\
   &= 8 + 3n + \log_{2}{n} \cdot \left(26 + 18n\right) + 4n - 4 - 2n\log_{2}{n} \\
   &= 4 + 7n + 26 + 18n\log_{2}{n} - 2n\log_{2}{n} \\
